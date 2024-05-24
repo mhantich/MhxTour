@@ -1,0 +1,260 @@
+.nav{
+    height: 80px;
+    width: 100%;
+ 
+    
+  
+  }
+  .navBar{
+    padding: 2px;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    border-radius: 0% 0% 2% 2%;
+  }
+  .menu{
+    /* right: -100%; */
+    flex: 1;
+    width: 100%;
+    
+    
+     }
+   .menu .close-menu , .menu .menu-logo,.menu .menu-typo{ 
+   
+     display: none; 
+ }
+  .logo{
+    flex: 1;
+  }
+  .open-menu{
+    display: none;
+  } 
+  .menu .navbar-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 1px
+  }
+  
+  .xf {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: center;
+  
+  }
+  .firt{
+    align-items: center;
+  }
+  .xf  p {
+    margin-bottom: 0px !important ;
+    color: var(--primary-color);
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .xf button {
+    width: 80px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+  }
+  .xf button  a{
+ text-decoration: none;
+
+ font-size: 0.9rem;
+ background-color: none;
+  }
+  .xf .btn_login{
+    background-color: var(--primary-color);
+  
+  }
+ 
+  .xf .btn_login:hover{
+    background-color: black;
+  
+  }
+ 
+  /* ========================= moble resposive ================= */
+  .xf .btn_regers{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  
+  }
+  .xf .btn_regers:hover{
+    background-color: var(--primary-color);
+    color: white;
+  
+  }
+  .xf .btn_regers a ,.xf .btn_logout a,.xf .btn_login a{
+    
+    color: white;
+  
+  }
+ 
+ 
+  
+  .nav__item a{
+    text-decoration: none;
+    color:var(--heading-color);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .nav__item a:hover{
+   
+    color:inherit
+  
+  }
+  .nav__item a.active__link{
+   
+    color:var(--secondary-color)
+  
+  }
+  /* ========================= moble resposive ================= */
+  
+  
+  @media only screen and (max-width:480px){
+   
+    .menu-logo img{
+        margin: auto;
+        width: 40%;
+        height: 40%;
+  
+    }
+   
+      
+   
+    
+    .navbar-first-child h6{
+        color: var(--primary-color);
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        
+    }
+  
+  
+  }
+  
+  
+  
+  
+  /* ========================= muduim resposive ================= */
+  
+  
+  @media only screen and (max-width:992px){
+      .navBar{
+             width: 100%;
+             }
+      .navbar-list{
+              display: none;
+              }
+     .menu{
+              background-color: rgb(0, 0, 0);
+              flex-direction: column;
+              align-items: center;
+              position: fixed;
+              top: 0%;
+              right:0%;
+              height: 100vh;
+              display: none;
+              flex: 2;            
+    
+       }
+      .close-menu{
+            display: flex;
+            height: 10%;
+            width: 100%;
+            color: rgb(250, 245, 245);
+            justify-content: start;
+                }
+                .nav__item a{
+                
+                  color: white;
+                
+                }
+      .menu .navbar-list{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 70%;
+          height: 50%;
+               }
+      
+      .navbar-list li{
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+                }
+      
+      .navbar-list li  a{
+        
+            color: rgb(255, 255, 255);
+        
+                }
+       
+        .menu-typo {
+           width: 70%;
+           text-align: center;
+           height: 25%;
+        }
+        .menu-typo p{
+          color: var(--text-color);
+          text-align: center;
+          font-size: 0.7rem;
+         
+        }
+        .menu-logo{
+            width: 70%;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            height: 10%;
+    
+        }
+        .menu-logo img{
+            margin: auto;
+            width: 33%;
+            height: 60%
+    
+        }
+        .open-menu{
+            display: block;
+           }
+
+
+
+           .menu .close-menu , .menu .menu-logo,.menu .menu-typo{ 
+   
+            display: flex; 
+        }
+  }
+
+
+
+
+  .show {
+    display: flex;
+    z-index: 10;
+    width: 70%; /* Start with a small width */
+    animation-name: example;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes example {
+    from {
+      width: 0%;
+     
+    }
+    to {
+      width: 70%;}
+  }
+  

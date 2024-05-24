@@ -1,0 +1,53 @@
+.booking-top{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.385);
+}
+
+.bookinf-center{
+    flex-direction: column;
+
+}
+.from-book{
+   border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.338);
+}
+.from-book input{
+    width: 100%;
+    outline: line ;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.33) ;
+   
+}
+.booking-bottom {
+    padding: 2px;
+    border-top: 1px solid rgba(0, 0, 0, 0.368) ;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.368) ;
+}
+.booking-bottom button{
+    background-color: var(--secondary-color);
+    width: 100%;
+    color: white;
+    padding: 5px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 15px;
+}
+.booking-bottom li {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.booking-bottom li h5 {
+ font-size: 1rem;
+ font-weight: bold;
+  
+}
+.booking-bottom li span {
+ font-size: 0.8rem;
+ 
+ font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}

@@ -1,0 +1,15 @@
+/* ErrorNot.css */
+
+.error-not {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    /* Add more styles as needed */
+  }
+  
+  /* Add any other styles you want for specific elements within the component */
+  

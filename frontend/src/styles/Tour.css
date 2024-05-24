@@ -1,0 +1,25 @@
+.pagination{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.pagination span{
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--secondary-color);
+    color: black;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.active{
+background-color: var(--secondary-color);
+color: white !important;
+ }
+

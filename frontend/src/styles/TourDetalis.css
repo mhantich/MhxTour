@@ -1,0 +1,24 @@
+.tour-content img{
+object-fit: cover;
+width: 100%;
+}
+.tour-content i{
+color: var(--secondary-color);
+}
+.tour-info {
+    margin-top: 15px;
+    padding: 15px;
+border: 1px solid rgba(0, 0, 0, 0.518);
+}
+.tour-icons{
+    flex-direction: row;
+    justify-content: start;
+   
+}
+.price-text{
+    font-size: 0.7rem;
+}
+.tour-desc{
+    flex-direction: column;
+    color: var(--text-color);
+}

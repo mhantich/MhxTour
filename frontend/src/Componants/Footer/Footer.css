@@ -1,0 +1,50 @@
+.footer{
+    padding: 30px;
+}
+.firstItem img{
+   width: auto;
+   height: 50px;
+}
+.firstItem p{
+  color: var(--text-color);
+  font-size: 0.8rem;
+}
+.socail-media span a{
+ text-decoration: none;
+ color: black;
+}
+.footer-quick {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+
+}
+.footer-icons{
+    display: flex;
+
+   
+}
+.footer-icons h6{
+ font-weight: bold;
+ font-size: 0.9rem;
+}
+.footer-icons p{
+
+ font-weight:lighter;
+ font-size: 0.8rem;
+ text-transform: capitalize;
+}
+.footer-copyright{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.footer-copyright span{
+  color: var(--secondary-color);
+}

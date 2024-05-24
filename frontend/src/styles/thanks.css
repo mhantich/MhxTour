@@ -1,0 +1,28 @@
+.thank-top{
+padding: 16px;
+text-align: center;
+border: 1px solid black;
+width: 40%;
+border-radius: 17px;
+margin: auto;
+
+}
+.thank-top h1{
+
+font-size: 4rem;
+
+}
+.thank-top h3{
+
+font-size: 1rem;
+
+}
+.thank-top button{
+background-color: var(--secondary-color);
+border: none;
+outline: none;
+}
+.thank-top i{
+font-size: 3rem;
+color: var(--secondary-color);
+}
