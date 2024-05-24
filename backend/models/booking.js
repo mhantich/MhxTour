@@ -40,4 +40,7 @@ const bookingSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("Booking", bookingSchema);
+
+const Booking = mongoose.model('Booking', bookingSchema);
+
+export default Booking;
