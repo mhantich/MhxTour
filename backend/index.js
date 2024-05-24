@@ -11,7 +11,6 @@ import boookingRouts from './router/Bookingsystem.js'
 
 dotenv.config()
 const app = express()
-const port = process.env.PORT 
 const corsOptions={
     origin:true,
     credentials: true
@@ -45,7 +44,7 @@ app.use('/api/v1/bookings',boookingRouts)
 
 
 
-app.listen(port,()=>{
+app.listen(process.env.PORT ,()=>{
     connect()
     
 })

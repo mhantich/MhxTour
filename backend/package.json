@@ -142,7 +142,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "start": "ndoe index.js",
+    "start": "node index.js",
     "start-dev": "nodemon index.js",
     "test": "node index.js"
   },
