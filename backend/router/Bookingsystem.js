@@ -1,5 +1,5 @@
 import express from 'express'
-import { createBook, findAllToursForUser, getALLbooks } from '../controllers/bookingControllers.js'
+import { createBook, findAllToursForUser, getALLbooks } from '../controllers/bookingController.js'
 import { verifyAdmin, verifyuser } from '../utils/verifyToken.js'
 
 

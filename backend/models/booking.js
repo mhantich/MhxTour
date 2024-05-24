@@ -6,7 +6,7 @@ const bookingSchema = new mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "User",
     },
-    
+
     tourId: {
       type: mongoose.Types.ObjectId,
       ref: "Tour",
@@ -22,11 +22,9 @@ const bookingSchema = new mongoose.Schema(
     },
     phone: {
       type: Number,
-
     },
     bookAt: {
       type: Date,
-    
     },
     guest: {
       type: Number,
@@ -34,13 +32,12 @@ const bookingSchema = new mongoose.Schema(
     },
     tottal: {
       type: Number,
-   
     },
   },
   { timestamps: true }
 );
 
+const booking = mongoose.model("booking", bookingSchema);
 
-const Booking = mongoose.model('Booking', bookingSchema);
+export default booking;
 
-export default Booking;
